@@ -1,17 +1,36 @@
-O projeto consiste em uma simples To Do List.
+# 📝 To-Do List
 
-Após clonar o projeto, você deverá ter um banco de dados PostgreSQL (seja no seu pc ou hospedado em algum lugar), então, na raiz do projeto, crie um arquivo ".env.development" para configurar as strings de conexão do seu banco, são elas:
+O projeto consiste em uma simples To-Do List.
 
-DB_HOST=servidor
-DB_PORT=porta (geralmente 5432)
-DB_DATABASE=nomeDoBanco
-DB_USERNAME=seuUsuario
-DB_PASSWORD=suaSenha
+## 🚀 Como executar o projeto
 
-Após isso, instale todas as dependências do package.json com "pnpm i" ou "npm i".
+### 1️⃣ Clone o repositório
 
-E finalmente, inicie o projeto com "pnpm dev" ou "npm run dev".
+git clone https://github.com/wendelmatheus/todo-list-csharp.git
+cd todo-list-csharp
+
+### 2️⃣ Configure o banco de dados
+Você precisará de um banco de dados PostgreSQL (seja no seu pc ou hospedado em algum lugar).
+Na raiz do projeto, crie um arquivo .env.development e adicione as seguintes configurações:
+
+- DB_HOST=servidor  
+- DB_PORT=porta (geralmente 5432)  
+- DB_DATABASE=nomeDoBanco  
+- DB_USERNAME=seuUsuario  
+- DB_PASSWORD=suaSenha  
+
+### 3️⃣ Instale as dependências
+
+"pnpm install"
+ou
+"npm install"
+
+### 4️⃣ Inicie o projeto
+
+"pnpm dev"
+ou
+"npm run dev"
 
 Foi configurado no package.json para iniciar o servidor logo após o React, então pode demorar alguns segundos.
 
-Após isso, aproveite :D
+🔹 Após isso, aproveite! 😃
