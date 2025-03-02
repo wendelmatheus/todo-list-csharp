@@ -6,8 +6,8 @@ O projeto consiste em uma To-Do List feita com React e asp.net.
 
 ### 1️⃣ Clone o repositório
 
-git clone https://github.com/wendelmatheus/todo-list-csharp.git
-cd todo-list-csharp
+- git clone https://github.com/wendelmatheus/todo-list-csharp.git
+- cd todo-list-csharp
 
 ### 2️⃣ Configure o banco de dados
 Você precisará de um banco de dados PostgreSQL (seja no seu pc ou hospedado em algum lugar).
