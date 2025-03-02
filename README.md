@@ -1,6 +1,6 @@
 # 📝 To-Do List
 
-O projeto consiste em uma simples To-Do List.
+O projeto consiste em uma To-Do List feita com React e asp.net.
 
 ## 🚀 Como executar o projeto
 
